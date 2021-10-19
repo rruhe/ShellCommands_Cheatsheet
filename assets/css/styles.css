@@ -1,0 +1,153 @@
+/* #############################
+   Global settings
+################################ */
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+
+
+
+/* ##############################
+   CODE DOCUMENTATION follow soon
+################################# */
+
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url("../img/simon-lee-backgr-unsplash.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-attachment: fixed;
+   font-size: 16px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+   font-size: 2.8rem;
+}
+
+h2 {
+   font-size: 2.0rem;
+}
+
+h3 {
+   font-size: 1.6rem;
+   margin-bottom: 1.2vh;
+}
+
+h4 {
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 1.4rem;
+   margin-bottom: 1vh;
+}
+
+p {
+   font-size: 1.3rem;
+}
+
+ul {
+   margin: 2vh 1vw 1vh 0vw;
+}
+
+ul li {
+   border: 1px solid blue;
+   border-radius: 6px;
+   display: inline-block;
+   margin-right: 8px;
+}
+
+a {
+   font-family: 'Ubuntu Mono', monospace;
+   color:rgb(26, 26, 172);
+   text-decoration: none;
+   font-size: 1.6rem;
+}
+
+li:hover {
+   background-color: yellowgreen;
+}
+
+.highlight-CMD {
+   font-family: 'Ubuntu Mono', monospace;
+   background-color: cyan;
+   letter-spacing: 10px;
+   padding: 0 1vw 0 1vw;
+}
+
+
+/* #############################
+   Content settings
+################################ */
+/* header */
+
+header {
+   background-image: url("../img/gabriel-heinzer-unsplash.jpg");
+   background-repeat: no-repeat;
+   background-size: 18%;
+   background-color: rgb(100, 149, 237, 0.9);
+   margin-bottom: 3vh;
+   position: sticky;
+   top: 0;
+}
+
+header i {
+   display: inline;
+   font-size: 10rem;
+   color: rgb(26, 26, 172);
+   margin-left: 5vh;
+}
+
+header div {
+   display: inline-block;
+   margin-left: 3vw;
+   line-height: 1.5;
+}
+
+.shadow1 {
+   box-shadow: 0.6em 0.6em 2em #777;
+}
+
+.shadow2 {
+   box-shadow: 4px 4px 4px 2px #777;
+}
+
+.main-article {
+   box-shadow: 0.4em 0.4em 1.5em #777;
+   display: flex;
+   width: 96%;
+   margin: auto auto 3vh auto;
+}
+
+.div-left-pos {
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   background-color: rgb(54, 100, 185, 0.6);
+   padding: 14vh 2vw 0 2vw;
+   width: 48vw;
+}
+
+.carbon-img {
+   width: 60vw;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:  rgb(26, 26, 172);;
+   color: white;
+   text-align: center;
+}
+
+.footer p {
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 2rem;
+}
