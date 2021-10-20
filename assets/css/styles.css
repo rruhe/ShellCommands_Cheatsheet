@@ -126,12 +126,12 @@ header div {
    border-top-left-radius: 8px;
    border-bottom-left-radius: 8px;
    background-color: rgb(54, 100, 185, 0.6);
-   padding: 14vh 2vw 0 2vw;
+   padding: 6vh 2vw 0 2vw;
    width: 48vw;
 }
 
 .carbon-img {
-   width: 60vw;
+   width: 40vw;
 }
 
 .footer {
