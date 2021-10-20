@@ -88,9 +88,6 @@ li:hover {
 /* header */
 
 header {
-   background-image: url("../img/gabriel-heinzer-unsplash.jpg");
-   background-repeat: no-repeat;
-   background-size: 18%;
    background-color: rgb(100, 149, 237, 0.9);
    margin-bottom: 3vh;
    position: sticky;
